@@ -1,0 +1,105 @@
+@media screen and  ( max-width : 1000px ) {
+   
+    #about-me  {
+        margin: 0 ;
+    }
+    #my-work {
+        margin: 0 80px;
+    }
+    #location {
+        margin: 0 80px;
+    }
+}
+@media screen and  ( max-width : 850px ) {
+   
+    #about-me  {
+        display: block;
+    }
+    #my-work {
+        margin: 0 20px;
+    }
+    #location {
+        margin: 0 20px;
+    }
+}
+@media screen and  ( max-width : 680px ) {
+   
+    #about-me  .photo {
+        width: 100%;
+    }   
+    #about-me .user-p {
+        display: none;
+    }
+    #my-work {
+        margin: 0;
+    }
+    #location {
+        margin: 0 ;
+    }
+    #form .sumit {
+        padding: 10px 0;
+        margin: 10px 0 0 0 ;
+    }
+}
+@media screen and  ( max-width : 600px ) {
+    .block-li {
+        display: none;
+    }
+    #about-me  {
+        padding: 60px 20px;
+    }
+    #about-me .container-about p {
+        font-size: 80%;
+    }
+    #Partfolio .partfolio-container  {
+        padding: 40px 0;  
+    }
+    #Partfolio .partfolio-container .partfolio-flex-items {
+        font-size: 60%;  
+    }
+    
+    #my-work .my-work-about h5{
+        font-size: 70%;
+    }
+    #my-work .my-work-container .my-work-flex-items {
+        display: flex;
+        flex-direction: column;
+    }
+    #my-work .my-work-container .my-work-flex-items .img-wrapper{
+        height: 400px;
+        padding: 0 6px;
+        margin: 2% 0;
+    }
+    #my-work .my-work-container .my-work-flex-items .img-wrapper img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    #location .main .about-location > div {
+        font-size: 80%;
+    }
+    #location .my-location h3 {
+        font-size: 80%;
+    }
+    #location .main .photo-location,
+    #location .main .about-location,
+    #form .container-form .group-form input,
+    #form .container-form .group-form textarea,
+    #form .container-form .group-form
+    {
+        width: 100%;
+    }
+    #form .container-form .group-form input {
+        padding: 16px;
+    }
+    #form .container-form .group-form textarea  {
+        margin-top: 0;
+        padding: 16px;
+    }
+    #about-me .skills-items h4 {
+        letter-spacing: 5px;
+        font-size: 80%;
+     }
+
+}
+
